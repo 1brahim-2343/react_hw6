@@ -1,0 +1,61 @@
+{
+  "movies": [
+    {
+      "id": "mv_001",
+      "name": "Inception",
+      "trailerTitle": "Official Trailer",
+      "description": "A skilled thief enters people's dreams to steal secrets but is given one final mission that could change everything.",
+      "thumbnail": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+      "videoUrl": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "duration": "2:30",
+      "releaseDate": "2010-07-16",
+      "genre": [
+        "Sci-Fi",
+        "Action",
+        "Thriller"
+      ],
+      "rating": 8.8,
+      "status": "Published",
+      "views": 1245832,
+      "createdAt": "2026-06-21T14:30:00Z"
+    },
+    {
+      "id": "mv_002",
+      "name": "Interstellar",
+      "trailerTitle": "Official Trailer",
+      "description": "A group of astronauts travel through a wormhole in search of humanity's next home.",
+      "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+      "videoUrl": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "duration": "2:28",
+      "releaseDate": "2014-11-07",
+      "genre": [
+        "Sci-Fi",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.7,
+      "status": "Published",
+      "views": 987456,
+      "createdAt": "2026-06-22T10:15:00Z"
+    },
+    {
+      "id": "mv_003",
+      "name": "Joker",
+      "trailerTitle": "Official Trailer",
+      "description": "The origin story of a failed comedian who slowly transforms into Gotham City's infamous villain.",
+      "thumbnail": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c",
+      "videoUrl": "https://www.youtube.com/watch?v=zAGVQLHvwOY",
+      "duration": "2:24",
+      "releaseDate": "2019-10-04",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8.4,
+      "status": "Published",
+      "views": 1548793,
+      "createdAt": "2026-06-23T09:45:00Z"
+    }
+  ]
+}
