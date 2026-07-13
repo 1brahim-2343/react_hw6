@@ -1,11 +1,11 @@
 {
   "movies": [
     {
-      "id": "mv_001",
+      "id": "1",
       "name": "Inception",
       "trailerTitle": "Official Trailer",
-      "description": "A skilled thief enters people's dreams to steal secrets but is given one final mission that could change everything.",
-      "thumbnail": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ZRxBcZT1j21R28qmADCR4px-Djrcf8V0lDKejYCPINu7Kd5v6AFijFk&s=10",
       "videoUrl": "https://www.youtube.com/watch?v=YoHD9XEInc0",
       "duration": "2:30",
       "releaseDate": "2010-07-16",
@@ -15,16 +15,17 @@
         "Thriller"
       ],
       "rating": 8.8,
-      "status": "Published",
-      "views": 1245832,
-      "createdAt": "2026-06-21T14:30:00Z"
+      "director": "Christopher Nolan",
+      "language": "English",
+      "videoResolution": "720p",
+      "studio": "Warner Bros. Pictures"
     },
     {
-      "id": "mv_002",
+      "id": "2",
       "name": "Interstellar",
       "trailerTitle": "Official Trailer",
-      "description": "A group of astronauts travel through a wormhole in search of humanity's next home.",
-      "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+      "description": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.",
+      "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2021/07/09/1919558723588/INST_SAlone_16_9_1920x1080_1887272_1920x1080.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
       "duration": "2:28",
       "releaseDate": "2014-11-07",
@@ -34,17 +35,18 @@
         "Drama"
       ],
       "rating": 8.7,
-      "status": "Published",
-      "views": 987456,
-      "createdAt": "2026-06-22T10:15:00Z"
+      "director": "Christopher Nolan",
+      "language": "English",
+      "videoResolution": "1080p",
+      "studio": "Paramount Pictures"
     },
     {
-      "id": "mv_003",
-      "name": "Joker",
+      "id": "3",
+      "name": "The Shawshank Redemption",
       "trailerTitle": "Official Trailer",
-      "description": "The origin story of a failed comedian who slowly transforms into Gotham City's infamous villain.",
-      "thumbnail": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c",
-      "videoUrl": "https://www.youtube.com/watch?v=zAGVQLHvwOY",
+      "description": "After a banker is sentenced to life in Shawshank Prison, he forms an unlikely friendship with a seasoned inmate and clings to hope amid cruelty and corruption.",
+      "thumbnail": "https://s29288.pcdn.co/wp-content/uploads/2010/03/shawshank-redemption-poster-1.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=NmzuHjWmXOc",
       "duration": "2:24",
       "releaseDate": "2019-10-04",
       "genre": [
@@ -53,9 +55,11 @@
         "Thriller"
       ],
       "rating": 8.4,
-      "status": "Published",
-      "views": 1548793,
-      "createdAt": "2026-06-23T09:45:00Z"
+      "director": "Frank Darabont",
+      "language": "English",
+      "videoResolution": "480p",
+      "studio": "Columbia Pictures"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

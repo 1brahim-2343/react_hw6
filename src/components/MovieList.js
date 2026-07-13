@@ -1,26 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React from 'react'
 import Movie from './Movie';
 import styles from '../shared/style.module.css'
+import { useMovies } from '../Context/MoviesContext';
 
-const url = 'http://localhost:3000/movies';
 
 
 export default function MovieList() {
-    const [movies, setMovies] = useState();
-
-    const getAllMovies = () => {
-        axios.get(url).then((data) => {
-            setMovies(data.data)
-        })
-    }
-
-    useEffect(() => {
-        getAllMovies();
-    }, [])
+    const { movies } = useMovies();
+    console.log(movies)
     return (
         <section className={styles.movieList}>
-            <Movie/>
+            {movies.map((movie, index) => (
+                <Movie key={index} movie={movie} />
+            ))}
         </section>
     )
 }
